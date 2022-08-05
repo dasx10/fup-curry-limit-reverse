@@ -1,0 +1,27 @@
+{
+  "name": "fup-curry-limit-reverse",
+  "version": "1.0.0",
+  "description": "function",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "uglifyjs ./source.js -cmo ./index.js",
+    "upload": "npm run build & npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasx10/fup-curry-limit-reverse.git"
+  },
+  "keywords": [
+    "function"
+  ],
+  "author": "Kleschev Yevhenii <dasx10@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dasx10/fup-curry-limit-reverse/issues"
+  },
+  "homepage": "https://github.com/dasx10/fup-curry-limit-reverse#readme",
+  "dependencies": {
+    "fup-curry-limit-reverse-core": "^1.0.1"
+  }
+}
